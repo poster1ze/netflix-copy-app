@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import classes from './Banner.module.css';
-import Axios from '../../services/axios';
-import Requests from "../../services/requests";
+import Axios from '../../../services/axios';
+import Requests from "../../../services/requests";
 
 export const Banner = () => {
 

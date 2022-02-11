@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import classes from './Row.module.css'
-import Axios from "../../services/axios";
+import Axios from "../../../services/axios";
 
 export const Row = ({title, fetchUrl, isLargeLow = false}) => {
 

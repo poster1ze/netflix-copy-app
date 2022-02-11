@@ -1,8 +1,8 @@
 import React from "react";
 import classes from './HomePage.module.css'
-import {Nav} from '../Nav/Nav';
-import {Banner} from "../Banner/Banner";
-import {Row} from "../Row/Row";
+import {Nav} from "./Nav/Nav";
+import {Banner} from "./Banner/Banner";
+import {Row} from "./Row/Row";
 import Requests from "../../services/requests";
 
 export const HomePage = () => {

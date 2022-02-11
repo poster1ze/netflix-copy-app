@@ -1,0 +1,63 @@
+.ProfilePage {
+    height: 100vh;
+    color: white;
+}
+
+.ProfilePageBody {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    max-width: 800px;
+}
+
+.ProfilePageBody > h1 {
+    font-size: 60px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+}
+
+.ProfilePageInfo {
+    display: flex;
+}
+
+.ProfilePageInfo > img {
+    height: 100px;
+
+}
+
+.ProfilePageDetails {
+    color: white;
+    margin-left: 25px;
+    flex: 1;
+}
+
+.ProfilePageDetails > h2 {
+    background-color: gray;
+    padding: 15px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.ProfilePageSignOut {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+}
+
+.ProfilePagePlans {
+    margin-top: 20px;
+}
+
+.ProfilePagePlans > h3 {
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+}
